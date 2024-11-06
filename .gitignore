@@ -1,0 +1,54 @@
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+dump.rdb
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# PHP specific
+/vendor/
+composer.lock
+composer.phar
+
+# Laravel specific
+.env
+.phpunit.result.cache
+/storage/*.key
+/public/storage
+/storage/logs
+/storage/app/public
+
+# Node specific (if Node modules are used)
+node_modules/
+
+# IDE Specific
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.old
+*.orig
+
+# Cache files
+cache/
+tmp/
+*.cache
+*.sass-cache
+*.npm
+
+# Other files
+*.env
+*.env.*
+.env.*.local
+
+# Ignore config files with sensitive information
+db_connect.php
